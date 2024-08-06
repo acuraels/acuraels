@@ -10,7 +10,7 @@ TG : https://t.me/acuraels
 VK : https://vk.com/acuraels
 
 ## 💻 Стек Технологий:
-HTML, CSS, JS, PY, C#.
+HTML, CSS, JS(in progress), PY, C#.
 
 ## 😺
 ![image](https://github.com/user-attachments/assets/b6677f72-ccc3-4af7-8430-d01fd42a09be)
