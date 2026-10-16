@@ -299,32 +299,6 @@ AI-сервис для подбора грантов, конкурсов и во
 
 ---
 
-<!-- ===================== ACHIEVEMENTS ===================== -->
-
-<h2 align="center">🏆 ACHIEVEMENTS</h2>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/UrFU-117%20%2F%2036865-00bcd4?style=for-the-badge&labelColor=111827"/>
-<img src="https://img.shields.io/badge/Academic-Top%2010%25-8b5cf6?style=for-the-badge&labelColor=111827"/>
-<img src="https://img.shields.io/badge/Scholarship-2x%20Recipient-00bcd4?style=for-the-badge&labelColor=111827"/>
-
-</div>
-
-<br/>
-
-- 🎓 **Дважды отличник учёбы УрФУ** — 2024/2025 и 2025/2026.
-- 🥇 **1 место** — «Мастер Рокет Сайенс ИРИТ-РТФ УрФУ», 2025.
-- 🥉 **3 место** — хакатон «Уральский код», 2025.
-- 🏅 **Дважды стипендиат Д. А. Пумпянского** за достижения в учёбе и науке.
-- 📈 **117 место из 36 865** участников университетского рейтинга.
-- 🧩 **Призёр олимпиады «Изумруд. Студент»**, диплом II степени.
-- 📚 **Научная публикация** по оптимизации производительности React SPA.
-- 🚀 **Топ-25% лучших решений** CUP IT 2026.
-- 📜 **Дважды отмечен ректором УрФУ** за проектную деятельность.
-
----
-
 <!-- ===================== GITHUB ANALYTICS ===================== -->
 
 <h2 align="center">📊 GITHUB ANALYTICS</h2>
@@ -332,7 +306,7 @@ AI-сервис для подбора грантов, конкурсов и во
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=acuraels&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=8b5cf6&text_color=c9d1d9&ring_color=00d9ff&include_all_commits=true&count_private=false" alt="GitHub Stats"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=acuraels&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=8B5CF6&currStreakLabel=00D9FF&sideLabels=C9D1D9" alt="GitHub Streak"/>
+<img width="49%" src="./profile/streak.svg" alt="GitHub Streak"/>
 
 <br/>
 
@@ -346,7 +320,7 @@ AI-сервис для подбора грантов, конкурсов и во
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=acuraels&bg_color=0d1117&color=00d9ff&line=8b5cf6&point=ffffff&area=true&area_color=312e81&hide_border=true&custom_title=Contribution%20Timeline" alt="GitHub Contribution Graph"/>
+<img width="100%" src="./profile/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Activity"/>
 
 </div>
 
