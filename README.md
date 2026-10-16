@@ -306,6 +306,7 @@ AI-сервис для подбора грантов, конкурсов и во
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=acuraels&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=8b5cf6&text_color=c9d1d9&ring_color=00d9ff&include_all_commits=true&count_private=false" alt="GitHub Stats"/>
+<img width="49%" src="./profile/streak.svg" alt="GitHub Streak"/>
 
 <br/>
 
@@ -314,6 +315,14 @@ AI-сервис для подбора грантов, конкурсов и во
 </div>
 
 <br/>
+
+<h3 align="center">⚡ CONTRIBUTION ACTIVITY</h3>
+
+<div align="center">
+
+<img width="100%" src="./profile/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Activity"/>
+
+</div>
 
 ---
 
