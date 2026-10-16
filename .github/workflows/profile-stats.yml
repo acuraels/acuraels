@@ -1,3 +1,4 @@
+
 name: Update GitHub profile visuals
 
 on:
@@ -11,9 +12,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: github-profile-visuals
+  cancel-in-progress: false
+
 jobs:
   profile:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
@@ -36,12 +42,32 @@ jobs:
       - name: Commit generated images
         shell: bash
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add profile/streak.svg profile/github-contribution-grid-snake-dark.svg
+
           if git diff --cached --quiet; then
             echo "No image changes."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git commit -m "chore: update profile visuals"
-          git push
+
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt"
+
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              echo "Profile visuals updated successfully!"
+              exit 0
+            fi
+
+            echo "Push rejected. Retrying..."
+            sleep 3
+          done
+
+          echo "Failed to push generated images."
+          exit 1
