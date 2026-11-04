@@ -305,12 +305,13 @@ AI-сервис для подбора грантов, конкурсов и во
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=acuraels&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=8b5cf6&text_color=c9d1d9&ring_color=00d9ff&include_all_commits=true&count_private=false" alt="GitHub Stats"/>
+<img width="49%" src="https://github-stats-extended.vercel.app/api?username=acuraels&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=8b5cf6&text_color=c9d1d9&ring_color=00d9ff&include_all_commits=true&count_private=false" alt="GitHub Stats"/>
+
 <img width="49%" src="./profile/streak.svg" alt="GitHub Streak"/>
 
 <br/>
 
-<img width="65%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acuraels&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+<img width="65%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=acuraels&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 
 </div>
 
